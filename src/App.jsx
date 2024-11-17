@@ -1,11 +1,11 @@
 // import { useState } from 'react'
 import './App.css'
-import ImgGen from './components/ImgGen'
+import Dashboard from './components/Dashboard'
 function App() {
   
   return (
     <>
-    <ImgGen/>
+    <Dashboard/>
     </>
   )
 }
