@@ -33,12 +33,13 @@ input[type="text"] {
   outline: none;
 }
 
-#forums {
+#msgbox {
   margin: 0;
   display: flex;
 }
 
 button {
+  border-radius: 50%;
   cursor: pointer;
   padding: 0.5rem 2rem;
   background-color: #444; /* Dark button background */
