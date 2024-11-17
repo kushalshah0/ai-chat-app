@@ -1,39 +1,58 @@
 body {
-    font-family: Arial, sans-serif;
-    font-size: 17px;
-  }
-  .chatbox {
-    height: 500px;
-    overflow: auto;
-    border: 1px solid #ccc;
-    padding: 2rem;
-    word-spacing: 5px;
-  }
-  .message {
-    margin-bottom: 10px;
-  }
-  #chatbox {
-    color: blue;
-  }
-  .bot {
-    color: green;
-  }
-  input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    outline: none;
-  }
-  #forums{
-      display: flex;
-  }
-  button{
-      cursor: pointer;
-      padding: 0.5rem 2rem;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text color */
+  margin: 0; /* Remove default margin */
+}
 
-  }
-  .chatbox img{
-      width: 50px;
-      display: none;
-  }
+.chatbox {
+  height: 585px; 
+  overflow: auto;
+  border: 1px solid #444; /* Darker border */
+  padding: 2rem;
+  background-color: #1e1e1e; /* Darker background for chatbox */
+  word-spacing: 5px;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.bot {
+  color: #00ff00; /* Bright green for bot messages */
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #444; /* Dark border */
+  background-color: #2e2e2e; /* Dark background for input */
+  color: #ffffff; /* Light text color */
+  outline: none;
+}
+
+#msgbox {
+  margin: 0;
+  display: flex;
+}
+
+button {
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  background-color: #444; /* Dark button background */
+  color: #ffffff; /* Light button text */
+  border: none; /* Remove border */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #555; /* Slightly lighter on hover */
+}
+
+.chatbox img {
+  width: 50px;
+  display: none; /* Initially hidden */
+}
